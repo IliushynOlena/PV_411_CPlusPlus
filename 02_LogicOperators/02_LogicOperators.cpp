@@ -180,6 +180,8 @@ int main()
     else
     {
         cout << "Error month" << endl;
+        cout << "Error month" << endl;
+        cout << "Error month" << endl;
     }
     
      
