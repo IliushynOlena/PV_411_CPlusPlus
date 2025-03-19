@@ -32,6 +32,11 @@ int main()
     int arr[size];
     int* parr = &arr[0];
 
+    cout << arr[0] << endl;
+    cout << &arr[0] << endl;
+    cout << parr << endl;
+    cout << arr << endl;
+
    /* for (int i = 0; i < size; i++)
     {
         *(parr + i) = rand() % 100;
