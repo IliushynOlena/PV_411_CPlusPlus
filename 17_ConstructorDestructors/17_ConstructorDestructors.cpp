@@ -172,6 +172,7 @@ public:
 
 int main()
 {
+	
 	Student student;//default constructor 
 	student.Print();
 	//student.Initialize();
@@ -184,7 +185,7 @@ int main()
 	student.AddMark(3);
 	student.Print();
 	//student.Delete();
-
+	
 
 	Student st("Nick", "Tomson","Ivanovich");//parametrixed constructor 
 	st.Print();
