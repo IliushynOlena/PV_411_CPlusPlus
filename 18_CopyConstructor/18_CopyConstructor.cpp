@@ -72,6 +72,27 @@ public:
 
 		marks = temp;
 	}
+
+	//void AddVagon(Vagon newVagon)
+	//{
+	//	int n, pl, pass;
+	//	cin >> n >> pl >> pass;
+	//	vagonCount++;
+	//	Vagon* temp = new Vagon[vagonCount];
+	//	for (int i = 0; i < vagonCount - 1; i++)
+	//	{
+	//		temp[i] = marks[i];
+	//	}
+	//	temp[vagonCount - 1] = newVagon;
+	//	temp[vagonCount - 1] = Vagon{n,pl,pass};
+	//	temp[vagonCount - 1] = Vagon(n,pl,pass);
+	//	if (marks != nullptr)
+	//		delete[] marks;
+
+	//	marks = temp;
+	//}
+
+
 	~Student()
 	{
 		cout << "Destructor" << name << endl;
@@ -87,12 +108,22 @@ class Animal
 
 };
 struct Vagon {
+	//public:
 	int number;
 	int places;
 	int passanger;
+	Vagon()
+	{
+
+	}
+	void Show()
+	{
+
+	}
 };
 class Train
 {
+	//pribvate:
 	string model;
 	int countVagons;
 	Vagon* vagons;
@@ -107,7 +138,7 @@ int main()
 	student_original.AddMark(7);
 	student_original.Print();
 	cout << "Copy object" << endl;
-
+	//student_original.AddVagon(Vagon{ 1,15,4 });
 
 	{
 		Student copy(student_original);

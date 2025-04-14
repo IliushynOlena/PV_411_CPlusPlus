@@ -126,15 +126,15 @@ void SomeFunction() {
 }
 int main()
 {
-	SomeFunction();
+	SomeFunction();//1
 
-	SomeFunction();
-	SomeFunction();
-	SomeFunction();
+	SomeFunction();//2
+	SomeFunction();//3
+	SomeFunction();//4
 
-	SomeFunction();
-	SomeFunction();
-	SomeFunction();
+	SomeFunction();//5
+	SomeFunction();//6
+	SomeFunction();//7
 
 	SomeFunction();
 	SomeFunction();
