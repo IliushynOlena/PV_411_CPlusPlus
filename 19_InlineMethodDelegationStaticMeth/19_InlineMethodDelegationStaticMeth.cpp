@@ -158,8 +158,11 @@ class Human
 	static int count_human;
 public:
 	//список ініціалізаторів
+	// //1
 	//Human() :name("no name"), age(0), weight(0) {}
+	// // 2
 	//Human() :name{ "no name" }, age{ 0 }, weight{ 0 } {}	
+	// 3 
 	Human()
 	{
 		name = "no name";
