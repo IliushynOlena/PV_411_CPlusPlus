@@ -157,19 +157,23 @@ class Human
 	int weight;
 	static int count_human;
 public:
-	//список ініціалізаторів
-	// //1
-	//Human() :name("no name"), age(0), weight(0) {}
-	// // 2
-	//Human() :name{ "no name" }, age{ 0 }, weight{ 0 } {}	
-	// 3 
-	Human()
+	Human() : name("no name"), age(0), weight(0) {}
+	
+	/*Human()
 	{
 		name = "no name";
 		age = 0;
 		weight = 0;
 		count_human++;
-	}
+	}*/
+	//Human human;
+	//список ініціалізаторів
+	// //1
+	
+	// // 2
+	//Human() :name{ "no name" }, age{ 0 }, weight{ 0 } {}	
+	// 3 
+	
 	Human(string name) :Human()
 	{
 		this->name = name;
