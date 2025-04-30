@@ -14,6 +14,40 @@ Library::Library(string name)
 	countBook = 0;
 }
 
+ Library::Library(const Library& other)
+{
+	this->name = other.name;
+	this->books = new Book[other.countBook];
+	for (int i = 0; i < other.countBook; i++)
+	{
+		this->books[i] = other.books[i];
+	}
+	this->countBook = other.countBook;
+}
+
+ Library::Library(Library&& other)
+{
+	name = other.name;
+	countBook = other.countBook;
+	books = other.books;
+	other.books = nullptr;
+}
+
+ Library Library::operator=(const Library& other)
+{
+	this->name = other.name;
+
+	if (books != nullptr)
+		delete[]books;
+	this->books = new Book[other.countBook];
+	for (int i = 0; i < other.countBook; i++)
+	{
+		this->books[i] = other.books[i];
+	}
+	this->countBook = other.countBook;
+	return *this;
+}
+
 void Library::AddBook(Book book)
 {
 	countBook++;

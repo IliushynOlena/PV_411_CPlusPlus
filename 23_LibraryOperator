@@ -1,4 +1,4 @@
-﻿  23_LibraryOperator=.cpp
-  Library.cpp
-  Generating Code...
-  23_LibraryOperator=.vcxproj -> C:\Users\helen\source\repos\PV_411_CPlusPlus\x64\Debug\23_LibraryOperator=.exe
+﻿  Library.cpp
+23_LibraryOperator=.obj : error LNK2019: unresolved external symbol "public: __cdecl Library::Library(class Library const &)" (??0Library@@QEAA@AEBV0@@Z) referenced in function "class Library __cdecl TestLibrary(class Library &)" (?TestLibrary@@YA?AVLibrary@@AEAV1@@Z)
+23_LibraryOperator=.obj : error LNK2019: unresolved external symbol "public: class Library __cdecl Library::operator=(class Library const &)" (??4Library@@QEAA?AV0@AEBV0@@Z) referenced in function main
+C:\Users\helen\source\repos\PV_411_CPlusPlus\x64\Debug\23_LibraryOperator=.exe : fatal error LNK1120: 2 unresolved externals
