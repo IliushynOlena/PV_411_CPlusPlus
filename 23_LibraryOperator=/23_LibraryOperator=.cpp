@@ -53,6 +53,7 @@ int main()
     Library lib3;
     lib3 = lib2 = lib;
 
+    cout<< sqrt(25);
    
 
 }

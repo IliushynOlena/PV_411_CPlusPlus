@@ -15,6 +15,7 @@ public:
 	void Show()const;
 	~Library()
 	{
+		
 		if (books != nullptr)
 			delete[]books;
 	}
