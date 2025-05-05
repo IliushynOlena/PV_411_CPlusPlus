@@ -12,9 +12,9 @@ struct Point {
 class Student
 {
 private:
-	string name;
-	int age;
-	int* marks;
+	string name;// Petro   ->  name = Petro
+	int age;   //  age = 12 ->  age = 12
+	int* marks;//  0cxv1xc32v  --> marks = 0cxv1xc32v
 	int markCount;
 public:
 	//ctor + TAB 
