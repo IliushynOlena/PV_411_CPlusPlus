@@ -35,7 +35,10 @@ public:
 	void Enqueue(string value, int priority)
 	{
 		int index = 0;
-		while (index < size && arr[index].priority < priority) { index++; }
+		while (index < size && arr[index].priority < priority) 
+		{ 
+			index++; 
+		}
 		size++;
 		Element* temp = new Element[size];
 		for (int i = 0; i < index; i++)
