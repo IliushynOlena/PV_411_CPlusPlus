@@ -104,13 +104,7 @@ public:
 	
 	}
 };
-class Point {};
-class Vector
-{
-	int size;
-	//Point * points;
-	List<Point> points;
-};
+
 int main()
 {
 
