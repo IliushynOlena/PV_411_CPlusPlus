@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_BinaryTree", "30_BinaryT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_Inheritance", "31_Inheritance\31_Inheritance.vcxproj", "{94631F7A-C9CD-42CB-B591-B11B2E75F6C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32_InheritancePolimorphism", "32_InheritancePolimorphism\32_InheritancePolimorphism.vcxproj", "{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{94631F7A-C9CD-42CB-B591-B11B2E75F6C5}.Release|x64.Build.0 = Release|x64
 		{94631F7A-C9CD-42CB-B591-B11B2E75F6C5}.Release|x86.ActiveCfg = Release|Win32
 		{94631F7A-C9CD-42CB-B591-B11B2E75F6C5}.Release|x86.Build.0 = Release|Win32
+		{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}.Debug|x64.ActiveCfg = Debug|x64
+		{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}.Debug|x64.Build.0 = Debug|x64
+		{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}.Debug|x86.Build.0 = Debug|Win32
+		{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}.Release|x64.ActiveCfg = Release|x64
+		{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}.Release|x64.Build.0 = Release|x64
+		{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}.Release|x86.ActiveCfg = Release|Win32
+		{A4C99044-D00C-4F7B-BB77-7B9E4C05FA4A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
