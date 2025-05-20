@@ -20,7 +20,7 @@ struct University
 	string country;
 };
 
-class Student
+class Person
 {
 private:
 	PIB fullname;
@@ -35,7 +35,7 @@ private:
 	float average ;
 public:
 	//ctor + TAB 
-    Student()
+    Person()
 	{
 		cout << "Default constructor" << endl;
 		fullname.name = "no name";
@@ -55,7 +55,7 @@ public:
 		markCount = 0;
 		average = 0;
 	}
-	Student(string name, string surname, string lastname)
+	Person(string name, string surname, string lastname)
 	{
 		cout << "Parametrized constructor" << endl;
 		fullname.name = name;
@@ -162,7 +162,7 @@ public:
 			delete[] marks;
 	}
 	// ~ + Tab --> tulda
-	~Student()
+	~Person()
 	{
 		cout << "Destructor" << fullname.name << endl;
 		if (marks != nullptr)
@@ -173,7 +173,7 @@ public:
 int main()
 {
 	
-	Student student;//default constructor 
+	Person student;//default constructor 
 	student.Print();
 	//student.Initialize();
 	student.SetName("Petro");
@@ -187,7 +187,7 @@ int main()
 	//student.Delete();
 	
 
-	Student st("Nick", "Tomson","Ivanovich");//parametrixed constructor 
+	Person st("Nick", "Tomson","Ivanovich");//parametrixed constructor 
 	st.Print();
 }
 

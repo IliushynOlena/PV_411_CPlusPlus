@@ -9,7 +9,7 @@ struct Point {
 		this->y = y;
 	}*/
 };
-class Student
+class Person
 {
 private:
 	string name;// Petro   ->  name = Petro
@@ -18,7 +18,7 @@ private:
 	int markCount;
 public:
 	//ctor + TAB 
-	Student()
+	Person()
 	{
 		cout << "Default constructor" << endl;
 		name = "no name";
@@ -26,7 +26,7 @@ public:
 		marks = nullptr;
 		markCount = 0;
 	}
-	Student(string name, int age)
+	Person(string name, int age)
 	{
 		cout << "Parametrized constructor" << endl;
 		this->name = name;
@@ -34,7 +34,7 @@ public:
 		marks = nullptr;
 		markCount = 0;
 	}
-	Student(const Student & other)
+	Person(const Person & other)
 	{
 		this->name = other.name;//Nick --> Nick
 		this->age = other.age;//15 ---> 15
@@ -93,7 +93,7 @@ public:
 	//}
 
 
-	~Student()
+	~Person()
 	{
 		cout << "Destructor" << name << endl;
 		if (marks != nullptr)
@@ -132,7 +132,7 @@ class Train
 int main()
 {
 	Animal a;
-	Student student_original("Nick",15);//default constrcutor
+	Person student_original("Nick",15);//default constrcutor
 	student_original.AddMark(12);
 	student_original.AddMark(8);
 	student_original.AddMark(7);
@@ -141,7 +141,7 @@ int main()
 	//student_original.AddVagon(Vagon{ 1,15,4 });
 
 	{
-		Student copy(student_original);
+		Person copy(student_original);
 		copy.Print();
 	}
 	student_original.Print();

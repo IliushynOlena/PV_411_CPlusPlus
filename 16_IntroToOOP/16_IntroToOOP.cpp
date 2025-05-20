@@ -61,7 +61,7 @@ public:
 
 };
 
-class Student
+class Person
 {
 private:
     //data members. як змінні-члени класу.
@@ -113,7 +113,7 @@ public:
 
 int main()
 {
-    Student st;
+    Person st;
   
   /*  st.name = "Oleg";
     st.surname = "Ivanchuk";

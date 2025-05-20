@@ -24,7 +24,7 @@ struct University
 	string country;
 };
 
-class Student
+class Person
 {
 private:
 	PIB fullname;
@@ -39,7 +39,7 @@ private:
 	float average;
 public:
 	//ctor + TAB 
-	Student()
+	Person()
 	{
 		cout << "Default constructor" << endl;
 		fullname.name = "no name";
@@ -59,7 +59,7 @@ public:
 		markCount = 0;
 		average = 0;
 	}
-	Student(string name, string surname, string lastname)
+	Person(string name, string surname, string lastname)
 	{
 		cout << "Parametrized constructor" << endl;
 		fullname.name = name;
@@ -143,7 +143,7 @@ public:
 			delete[] marks;
 	}
 	// ~ + Tab --> tulda
-	~Student()
+	~Person()
 	{
 		cout << "Destructor" << fullname.name << endl;
 		if (marks != nullptr)
@@ -275,7 +275,7 @@ int main()
 
 }
 
-void Student::AddMark(int mark)
+void Person::AddMark(int mark)
 {
 	markCount++;
 	int* temp = new int[markCount];
@@ -293,7 +293,7 @@ void Student::AddMark(int mark)
 	setAverageMark();
 }
 
-void Student::setAverageMark()
+void Person::setAverageMark()
 {
 	float sum = 0;
 	for (int i = 0; i < markCount; i++)
