@@ -72,7 +72,7 @@ public:
 
 int main()
 {
-	Stack st(15);
+	Stack st(-15);
 	for (int i = 0; i < 10; i++)
 	{
 		st.Push(rand() % 100);
