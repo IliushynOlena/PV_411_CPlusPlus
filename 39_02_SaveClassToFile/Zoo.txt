@@ -1,0 +1,7 @@
+Rivne zoo
+5
+Andgelo Pet 4 5
+Dolphin mammal 5 300
+Elephant herbivorous 2 850
+Turtle predator 100 250
+Lion predator 7 150
