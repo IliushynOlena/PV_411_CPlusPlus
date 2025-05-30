@@ -23,6 +23,7 @@ class Train
 public:
 	Train()
 	{
+		//vagon[0] = Vagon();
 		model = "no model";
 		amount_vagons = 0;
 		vagon = nullptr;
@@ -170,10 +171,17 @@ public:
 	
 };
 
-
+class Student {
+	int* marks;
+};
 int main()
 {
+	Student st;
+	st[0] = 12;
+	
+
 	Train t;
+	t[0] = Vagon();
 	//t.Show();
 	t.AddVagon(1,10,3);
 	t.AddVagon(2,15,4);

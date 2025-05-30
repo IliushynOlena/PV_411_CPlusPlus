@@ -126,6 +126,7 @@ public:
 
 int main()
 {
+	
 	/*Animal cat("Andgelo", "House pet", 4, 5);
 	cat.Show();
 	Zoo zoo("Rivne zoo");
