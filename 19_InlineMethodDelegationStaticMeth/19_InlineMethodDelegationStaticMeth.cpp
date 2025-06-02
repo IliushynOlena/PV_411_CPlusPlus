@@ -223,6 +223,7 @@ public:
 	}
 	void Print()
 	{
+		
 		cout << "Name : " << name << endl;
 		cout << "Age : " << age << endl;
 		cout << "Weight : " << weight << endl;

@@ -14,6 +14,7 @@ class User{};
 int main()
 {
 	vector<User> users;
+	vector<User>::iterator ptr =  users.begin();
    //vector stack queue map multymap set multyset string list
 	vector<int> vect1;//empty size = 0;
 	cout << "Size : " << vect1.size() << endl;
